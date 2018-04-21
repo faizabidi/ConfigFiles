@@ -1,74 +1,6 @@
-Host AWS1
-	HostName 54.209.163.169
-	User ubuntu
-	IdentityFile /Users/faizabidi/FaizAbidi.pem
-Host AWS2
-	HostName 54.86.205.138
-	User ubuntu
-	IdentityFile /Users/faizabidi/Desktop/FaizAbidi05.pem
-
-Host Sher
-	Hostname 52.36.150.18
-	User ubuntu
-	IdentityFile "/Users/faizabidi/Desktop/Virginia_Tech/Usability Engineering/Feb15.pem"
-Host Sher2
-        Hostname 52.1.71.52
-        User ubuntu
-        IdentityFile /Users/faizabidi/Desktop/FaizAbidi.pem
-
-
-Host Smurfers_Rackspace
-	HostName 104.130.13.135
-	User root
-Host Blueridge
-	Hostname blueridge1.arc.vt.edu
-	User fabidi89
-Host Hookiespeed
-	Hostname hokiespeed1.arc.vt.edu
-	User fabidi89
-Host Hookieone
-	Hostname hokieone.arc.vt.edu
-	User fabidi89
-Host Ithaca
-	Hostname ithaca1.arc.vt.edu
-	User fabidi89
-Host Newriver
-	Hostname newriver3.arc.vt.edu
-	User fabidi89
-Host OldConsole
-	Hostname console.sv.vt.edu
-	User fabidi89
-Host NewConsole
-	Hostname 128.173.49.145
-	User faiz89
-Host Kimmel
-	Hostname 181.224.136.211
-	User chesap77
-	IdentityFile ~/.ssh/id_dsa
-	Port 18765
-Host Viz1
-	Hostname 128.173.49.111
-	User faiz89
-
-#Host ubuntu1
-#	Hostname 192.168.122.170
-#	User faiz89
-
-Host cloudera
-	User cloudera
-	ProxyCommand ssh -q Viz1 nc -q0 192.168.122.128 22
-	
 Host Hypercube
 	Hostname 128.173.49.145
 	User faiz89
-
-Host infostorage
-	HostName hadoop.dlib.vt.edu
-	User cs5604f16_cmt
-
-Host raspberry
-	HostName 128.173.239.212
-	User pi
 
 Host Anvil
 	HostName 128.173.49.135
@@ -82,26 +14,10 @@ Host Polaris
 	HostName 128.173.49.150
 	User faiz89
 
-Host Pi
-	HostName 128.173.239.244
-	User pi
-
 Host Console
 	HostName 128.173.49.149
 	User faiz89
 
-Host Hypercube_High
-	HostName 128.173.49.144
+Host Faiz
+	HostName 45.79.128.214
 	User faiz89
-
-Host Docker
-	HostName 128.173.239.240
-	User pirate
-
-Host Rock
-	HostName 128.173.49.101
-	User faiz89
-
-Host Faraz
-	HostName 207.229.184.203
-	User pi
